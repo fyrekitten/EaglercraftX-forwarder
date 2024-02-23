@@ -1,5 +1,5 @@
 listener_01:
-  address: 0.0.0.0:8081
+  address: 147.185.221.17:17727
   address_v6: 'null'
   max_players: 60
   tab_list: GLOBAL_PING
@@ -10,7 +10,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '&6An FyrecraftX server'
   allow_motd: true
   allow_query: true
   request_motd_cache:
@@ -20,7 +20,7 @@ listener_01:
     online_server_list_trending: true
     online_server_list_portfolios: false
   http_server:
-    enabled: true
+    enabled: false
     root: '../../../web'
     page_404_not_found: 'default'
     page_index_name:
